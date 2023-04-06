@@ -4,7 +4,7 @@ The objective of this project is to develop a personnel management dashboard for
 
 ![Dashboard-Design](assets/Dashboard.jpg)
 
-## Setting Up the Project
+## Project set-up and installation
 
 ### Create a project folder
 
@@ -18,26 +18,24 @@ mkdir my-projet && cd my-project
 pip install virtualenv
 ```
 
-### Create, activate the virtual environment and install PySide6 - Windows
+### Create and activate the virtual environment - Windows
 
 ```
 virtualenv env
 source \env\Scripts\activate
-pip install pyside6
 ```
 
-### Create, activate the virtual environment and install PySide6 - MacOS/Linux
+### Create and activate the virtual environment - MacOS/Linux
 
 ```
 virtualenv env
 source env/bin/activate
+```
+
+### Install PySide6
+
+```
 pip install pyside6
-```
-
-### How to deactivate virtualenv
-
-```
-deactivate
 ```
 
 ### Check the PySide version
@@ -45,4 +43,10 @@ deactivate
 ```python
 import PySide6
 PySide6.__version__
+```
+
+### How to deactivate virtualenv
+
+```
+deactivate
 ```
