@@ -22,7 +22,7 @@ pip install virtualenv
 
 ```
 virtualenv env
-source \env\Scripts\activate
+\env\Scripts\activate
 ```
 
 ### Create and activate the virtual environment - MacOS/Linux
