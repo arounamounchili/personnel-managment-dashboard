@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel
-from PySide6.QtCore import Qt 
+from PySide6.QtCore import Qt, QSize
 from PySide6.QtGui import QPixmap
 
 class LeftWindow(QWidget):
@@ -8,5 +8,10 @@ class LeftWindow(QWidget):
         super().__init__()
 
         containerVBoxLayout = QVBoxLayout()
+
+        logoLabel = QLabel(self)
+        pixmap = QPixmap("assets/logo.png")
+        logoLabel.setPixmap(pixmap)
+        containerVBoxLayout.addWidget(logoLabel)
 
         self.setLayout(containerVBoxLayout)

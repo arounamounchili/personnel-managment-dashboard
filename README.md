@@ -42,7 +42,7 @@ pip install pyside6
 
 ```python
 import PySide6
-PySide6.__version__
+print(PySide6.__version__)
 ```
 
 ### How to deactivate virtualenv
