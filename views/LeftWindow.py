@@ -14,4 +14,5 @@ class LeftWindow(QWidget):
         logoLabel.setPixmap(pixmap)
         containerVBoxLayout.addWidget(logoLabel)
 
+        containerVBoxLayout.setAlignment(Qt.AlignTop)
         self.setLayout(containerVBoxLayout)
